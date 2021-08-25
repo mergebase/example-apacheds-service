@@ -8,3 +8,10 @@ However, this dependency is interesting because it is an uber jar that internall
 contains 30+ popular open source libraries.  You can use this repository to test
 your favourite SCA tools to see if they are "uber-aware".
 
+# To build:
+
+mvn package
+
+# Result:
+
+After building, take a look inside: target/example-apacheds-service-2021.08.25/WEB-INF/lib
